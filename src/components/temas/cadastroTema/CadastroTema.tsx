@@ -3,19 +3,14 @@ import React from 'react';
 
 
 function CadastroTema(){
-   
+
     return(
         <>
             <Container>
                 <form>  
                 <Typography> Cadastre um tema </Typography>
-                <TextField 
-                    name= 'descricao'
-                    id= 'descricao'
-                    label= 'Descrição do tema'
-                    variant= 'outlined'
-                    />
-
+                <TextField name= 'descricao' id= 'descricao' label= 'Tipo descrição' variant= 'outlined' />
+                <TextField name= 'tipo descricao' id= 'tipo descricao' label= 'Tipo descrição' variant= 'outlined' />
                 <Button variant='contained' type='submit' color='primary' >Cadastrar</Button>
 
                 </form>
