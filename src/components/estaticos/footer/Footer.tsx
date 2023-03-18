@@ -38,6 +38,7 @@ function Footer() {
                     </Box>
                 </Grid>
             </Grid>
+            footerComponent
         </>
     )
 }
